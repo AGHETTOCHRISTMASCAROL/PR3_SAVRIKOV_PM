@@ -1,0 +1,16 @@
+﻿<Window x:Class="PR3_SAVRIKOV_20101.TaskThree"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR3_SAVRIKOV_20101"
+        mc:Ignorable="d"
+        Title="TaskThree" Height="450" Width="800">
+    <Grid>
+        <Button Content="Результат" HorizontalAlignment="Left" Margin="230,66,0,0" VerticalAlignment="Top" x:Name="btnGetResult" Background="White" Width="100" Height="40" Click="OnClickGetResult"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" Height="56"
+                   Text="Дан массив из абсцисс(x) нескольких точек. Найти точку, сумма расстояний от которой до всех остальных точек массива — минимальна, вывести эту точку и минимальную сумму."/>
+        <Label Content="" HorizontalAlignment="Left" Margin="34,104,0,0" VerticalAlignment="Top" x:Name="lblResult"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="476,71,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,0.502" x:Name="lblArrayView"/>
+    </Grid>
+</Window>

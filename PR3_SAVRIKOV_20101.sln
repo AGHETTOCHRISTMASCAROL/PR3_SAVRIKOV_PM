@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysTasks", "ArraysTasks\ArraysTasks.csproj", "{1E47FC34-EC9C-4479-8BC4-E3F682C2B3C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PR3_SAVRIKOV_20101", "PR3_SAVRIKOV_20101\PR3_SAVRIKOV_20101.csproj", "{3E971E5F-6568-430C-9219-FFCD1289FE5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E47FC34-EC9C-4479-8BC4-E3F682C2B3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E47FC34-EC9C-4479-8BC4-E3F682C2B3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E47FC34-EC9C-4479-8BC4-E3F682C2B3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E47FC34-EC9C-4479-8BC4-E3F682C2B3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E971E5F-6568-430C-9219-FFCD1289FE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E971E5F-6568-430C-9219-FFCD1289FE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E971E5F-6568-430C-9219-FFCD1289FE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E971E5F-6568-430C-9219-FFCD1289FE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BFA369C-C3A5-4378-9EEF-6D37F8DC5204}
+	EndGlobalSection
+EndGlobal

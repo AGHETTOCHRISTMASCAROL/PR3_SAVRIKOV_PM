@@ -1,0 +1,17 @@
+﻿<Window x:Class="PR3_SAVRIKOV_20101.TaskTwo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR3_SAVRIKOV_20101"
+        mc:Ignorable="d"
+        Title="TaskTwo" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="31,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Name="textBlockTask" Width="751"
+            Text="Дана строка, состоящая из русских слов, разделенных пробелами (одним или несколькими). Определить длину самого длинного слова."/>
+        <Label Content="" HorizontalAlignment="Left" Margin="35,130,0,0" VerticalAlignment="Top" x:Name="labelResult"/>
+        <Button Content="Результат" HorizontalAlignment="Left" Margin="35,156,0,0" VerticalAlignment="Top" Width="75" Name="buttonResult" Background="White" Click="ResultButton_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="31,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="textBoxInput" MaxLength="120"/>
+
+    </Grid>
+</Window>
